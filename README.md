@@ -6,6 +6,7 @@
 ![Screenshot (20)](https://github.com/user-attachments/assets/9c2723e9-e9d1-40ea-87a1-dbc0a8f48730)
 
 # 1. Initial Setup
+
 ## Prerequisites
 
 Make sure you have the following installed:
