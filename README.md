@@ -1,5 +1,9 @@
-# 1. Initial Setup
+![Screenshot (15)](https://github.com/user-attachments/assets/964e6aac-b0e9-4a66-9d31-119f45ee6f13)
+![Screenshot (16)](https://github.com/user-attachments/assets/b406c07a-d06b-4408-a8ac-38a948def759)
+![Screenshot (18)](https://github.com/user-attachments/assets/ac1c1ec9-0d23-4858-9fc8-069b578f6d4a)
+![Screenshot (17)](https://github.com/user-attachments/assets/b2000af3-56c1-43f8-a2bd-91b075f1740d)
 
+# 1. Initial Setup
 ## Prerequisites
 
 Make sure you have the following installed:
