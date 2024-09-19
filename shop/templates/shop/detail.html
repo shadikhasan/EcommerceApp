@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Product Page</title>
+
+    <style>
+      .product-image {
+        max-height: 400px;
+        object-fit: cover;
+        width: 100%;
+      }
+
+      .price-text {
+        font-size: 1.1rem;
+
+        color: #dc3545;
+        text-decoration: line-through;
+      }
+
+      .discount-price-text {
+        font-size: 1.25rem;
+        color: #28a745;
+        font-weight: bold;
+      }
+
+      .product-description {
+        font-size: 1rem;
+        color: #6c757d;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <img
+                src="{{ product_object.image }}"
+                alt="{{ product_object.title }}"
+                class="product-image img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <!-- Product Title -->
+              <h2 class="mb-4">{{ product_object.title }}</h2>
+
+              <!-- Pricing -->
+              <p class="price-text">Price: ${{ product_object.price }}</p>
+
+              {% if product_object.discount_price %}
+              <p class="discount-price-text">
+                Discount Price: ${{ product_object.discount_price }}
+              </p>
+              {% endif %}
+
+              <!-- Product Description -->
+              <p class="product-description">
+                {{ product_object.description }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
