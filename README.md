@@ -2,6 +2,8 @@
 ![Screenshot (16)](https://github.com/user-attachments/assets/b406c07a-d06b-4408-a8ac-38a948def759)
 ![Screenshot (18)](https://github.com/user-attachments/assets/ac1c1ec9-0d23-4858-9fc8-069b578f6d4a)
 ![Screenshot (17)](https://github.com/user-attachments/assets/b2000af3-56c1-43f8-a2bd-91b075f1740d)
+![Screenshot (19)](https://github.com/user-attachments/assets/16b0d049-b438-4161-97f5-e4c764a715e5)
+![Screenshot (20)](https://github.com/user-attachments/assets/9c2723e9-e9d1-40ea-87a1-dbc0a8f48730)
 
 # 1. Initial Setup
 ## Prerequisites
