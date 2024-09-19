@@ -51,7 +51,13 @@ python manage.py createsuperuser
 python manage.py init_superuser
 ```
 
-### 6. Start the Development Server
+### 6. Add 100 demo products (Optional)
+
+```
+python manage.py add_products
+```
+
+### 7. Start the Development Server
 
 ```
 python manage.py runserver
